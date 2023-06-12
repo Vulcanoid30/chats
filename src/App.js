@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/">
           <Route
+            path="chats"
             index
             element={
               <ProtectedRoute>

@@ -14,7 +14,7 @@ function Login() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/");
+      navigate("/chats");
     } catch (err) {
       catchError(true);
     }
