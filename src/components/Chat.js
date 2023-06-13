@@ -9,12 +9,10 @@ function Chat() {
   return (
     <div className="chat">
       <div className="chatInfo">
+        <img src={data.user.photoURL} alt="img" />
         <span>{data.user?.displayName}</span>
-        <div className="chatIcons">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
+
+        <div className="chatIcons"></div>
       </div>
       <Messages />
       <Input />

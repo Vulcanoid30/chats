@@ -83,7 +83,7 @@ function Search() {
 
   return (
     <div className="search">
-      <div className="searchFrom">
+      <div className="searchForm">
         <input
           placeholder="find a user"
           value={username}
