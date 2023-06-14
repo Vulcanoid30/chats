@@ -95,6 +95,7 @@ function Input() {
     setImg(null);
   };
   // console.log(data.chatId);
+  // console.log(text);
   return (
     <form className="form" onSubmit={handleSend}>
       <div className="input">
